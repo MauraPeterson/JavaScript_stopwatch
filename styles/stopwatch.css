@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(0, 2, 68);
+  color: rgb(220, 254, 254);
+}
+
+.container{
+  margin-top: 15%;
+}
+
+.timer-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-text{
+  display: flex;
+  justify-content: start;
+}
+
+.timer{
+  display:flex;
+  align-items: center;
+  font-family:'Times New Roman';
+  font-size: 60px;
+}
+
+.colon{
+  align-items: start;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 70px;
+}
+
+.timer-seconds{
+  justify-content: start; 
+  width: 100px;
+}
+
+.timer-minutes{
+  justify-content: center;
+  width: 60px;
+}
+
+.timer-hours{
+  justify-content: end;
+  width: 26px;
+}
+
+button{
+  background-color: azure;
+  color: rgb(0, 2, 68);
+  border:none;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
